@@ -1,0 +1,105 @@
+.wppb-backend-btn {
+    display: inline-block;
+    padding: 17px 30px;
+    border-radius: 3px;
+    text-decoration: none;
+    box-shadow: none;
+    text-shadow: none;
+    background: #d4cfcf;
+    color: #333;
+    font-size: 15px;
+    font-weight: 600;
+}
+.wppb-backend-btn:hover,
+.wppb-backend-btn:focus {
+    text-decoration: none;
+    box-shadow: none;
+    text-shadow: none;
+    outline-offset: 0;
+    outline: 0;
+}
+.wppb-backend-btn:hover,
+.wppb-backend-btn:focus {
+    background: #c0bcbc;
+    color: #333; 
+}
+.wppb-info-btn {
+    background: #08b1ae;
+    color:#fff;
+}
+.wppb-info-btn:hover,
+.wppb-info-btn:focus {
+    background: #0b8783;
+    color:#fff;
+}
+.wppb-primary-btn {
+    background: #297EE1;
+    color: #fff;
+}
+.wppb-primary-btn:hover,
+.wppb-primary-btn:focus {
+    background: rgb(34, 111, 199);
+    color: #fff; 
+}
+.wppb-edit-button-wrap {
+    margin: 30px 0;
+    border-radius: 3px;
+}
+.wppb-edit-button-default-wrap {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.active-wppb-editor .wppagebuilder-edit-button {
+    margin-bottom: 15px;
+}
+.wppb-back-editor,
+.wppb-editor-warper {
+    display: inline-block;
+    margin-right: 8px;
+}
+/* intial looks */
+.wppb-edit-button-wrap{
+    padding: 40px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+}
+.wppagebuilder-edit-hide-editor + #postdivrich {
+    display: none;
+}
+.inactive-wppb-editor #postdivrich {
+    display: block;
+}
+.wppb-spin {
+    -webkit-animation: wppb-spin 2s infinite linear;
+    animation: wppb-spin 2s infinite linear;
+}
+.wppb-go-premium-star{
+    color: #ef5e25;
+    margin-top: -3px;
+    font-size: 25px;
+}
+
+
+@-webkit-keyframes wppb-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg)
+    }
+}
+
+@keyframes wppb-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg)
+    }
+}
